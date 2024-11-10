@@ -4,7 +4,7 @@
 
   
 
-clean
+ProjectSync is a Windows service and GUI application that automates the management of projects, particularly Unity projects, by cloning repositories, opening projects, and monitoring changes.
   
 
 ## Features
