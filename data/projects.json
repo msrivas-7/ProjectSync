@@ -1,0 +1,31 @@
+{
+    "computer_name": "COMPUTER_1",
+    "projects": [
+      {
+        "name": "Project A",
+        "source_link": "https://github.com/user/project_a.git",
+        "type": "git",
+        "unity_version": "2020.3.0f1",
+        "is_unity": true,
+        "auto_clone": true,
+        "status": "not_cloned"
+      },
+      {
+        "name": "Project B",
+        "source_link": "https://github.com/user/project_b.git",
+        "type": "git",
+        "unity_version": "2019.4.10f1",
+        "is_unity": true,
+        "auto_clone": false,
+        "status": "cloned"
+      },
+      {
+        "name": "Project C",
+        "source_link": "https://github.com/user/project_c.git",
+        "type": "git",
+        "is_unity": false,
+        "auto_clone": true,
+        "status": "not_cloned"
+      }
+    ]
+  }
