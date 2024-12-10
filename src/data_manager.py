@@ -7,7 +7,8 @@ from filelock import FileLock
 env = load_env()
 ENVIRONMENT = env['ENVIRONMENT']
 
-data_file_path = os.path.join('data', 'projects.json')
+data_file_path = os.path.join(r'C:\GitHub\ProjectSync\data', 'projects.json')
+
 lock_file_path = data_file_path + '.lock'
 
 def load_data():
